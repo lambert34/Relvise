@@ -191,6 +191,8 @@ body {
 }
 .main-block__buttons {
     display: inline-flex;
+    flex-wrap: wrap;
+    margin: -10px 0;
 }
 .main-block__button {
     font-weight: 700;
