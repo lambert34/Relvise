@@ -245,6 +245,7 @@ body {
 /* ------------------ СЕРВИС --------------------- */
 
 .page_services {
+    margin: -111px 0px 0px 0px;
 }
 .services {
 }
@@ -255,6 +256,7 @@ body {
     margin: 0px -15px;
 }
 .services__column {
+    z-index: 1;
     padding: 0px 15px;
     flex: 0 1 33.333%;
 }
