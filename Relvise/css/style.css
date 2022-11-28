@@ -36,6 +36,7 @@ body {
 	color: #252b42;
 	font-weight: 500;
 	font-family: Montserrat;
+    background: #fafafa;
 }
 /* ---------------------------------------------------------------------------- */
 .wrapper {
@@ -313,6 +314,7 @@ body {
 .advantages__container {
 }
 .advantages__header {
+    margin: 0px 0px 50px 0px;
 }
 .header-block {
     text-align: center;
@@ -333,16 +335,37 @@ body {
     color: #737373;
 }
 .advantages__body {
+    display: flex;
+    margin: 0px -15px;
 }
 .advantages__column {
+padding: 0px 15px;
+flex: 0 1 25%;
 }
 .advantages__item {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    text-align: center;
 }
+
+.advantages__item > *:not(:last-child) {
+    margin: 0px 0px 10px 0px;
+}
+
 .advantages__icon {
+    
 }
+
 .advantages__value {
+    font-size: 40px;
+    line-height: 142%;
+    font-weight: 700;
 }
 .advantages__text {
+    line-height: 150%;
+    letter-spacing: 0.1px;
+    color: #737373;
+    font-size: 16px;
 }
 
 
