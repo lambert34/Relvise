@@ -416,11 +416,12 @@ margin: 0px 0px 30px 0px;
 }
 
 .practice__body {
-    margin: 0px -15px;
+    margin: 0px -20px -30px;
     display: flex;
     flex-wrap: wrap;
 }
 .practice__column {
+    margin: 0px 0px 30px 0px;
     padding: 0px 15px;
     flex: 0 1 25%;
 }
