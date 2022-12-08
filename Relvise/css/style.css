@@ -658,8 +658,6 @@ flex: 0 0 32px;
 
 .subscribe__body {
     margin: 0px 30px;
-    display: flex;
-    justify-content: space-between;
     padding: 30px 50px;
     align-items: center;
     background: #17213C;
@@ -674,6 +672,13 @@ flex: 0 0 32px;
     } 
 }
 
+@media (min-width: 810px) {
+    .subscribe__body {
+        display: flex;
+        justify-content: space-between;
+    } 
+}
+
 .subscribe__title {
     max-width: 26%;
     font-size: 133%;
@@ -682,6 +687,18 @@ flex: 0 0 32px;
     letter-spacing: 0.1px;
     color: #fff;
 }
+
+
+@media (max-width: 810px) {
+    .subscribe__title {
+       margin: 0px 0px 20px 0px;
+    }  .subscribe__body {
+        padding: 20px 15px;
+        margin: 0px -15px;
+    } 
+}
+
+
 .subscribe__form {
     flex: 0 1 50%;
     display: flex;
