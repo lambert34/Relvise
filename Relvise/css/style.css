@@ -639,7 +639,20 @@ flex: 0 0 32px;
 .page__subscribe {
 }
 .subscribe {
+    position: relative;
+    padding: 0px 0px 20px 0px;
 }
+
+.subscribe::before {
+    background: #252b42;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 77px;
+    left: 0;
+}
+
 .subscribe__container {
 }
 
@@ -650,7 +663,9 @@ flex: 0 0 32px;
     padding: 30px 50px;
     align-items: center;
     background: #17213C;
-    border-radius: 2px;
+    border-radius: 4px;
+    position: relative;
+    z-index: 2;
 }
 .subscribe__title {
     max-width: 26%;
