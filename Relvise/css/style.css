@@ -793,6 +793,9 @@ padding: 50px 15px;
 }
 
 .item-getintouch__label {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
 }
 
 .item {
