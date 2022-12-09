@@ -767,6 +767,17 @@ background-color: #fff;
 padding: 50px 15px;
 }
 
+.item-getintouch_active {
+    background-color: #252B42;
+    color: #fff;
+    padding: 80px 15px;
+}
+
+.item-getintouch_active .getintouch__button {
+    border: 1px solid #fff;
+    color: #fff;
+}
+
 .item-getintouch__icon {
 }
 
